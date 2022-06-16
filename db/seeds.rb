@@ -5,7 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-print("créations des graines (rapport au paysagiste t'as vu)")
+puts("ramassage des graines déjà plantées")
+Section.destroy_all
+puts("il n'y a plus de graines.")
+puts("créations des graines (rapport au paysagiste t'as vu)")
 
 
 creation = Section.create(title: "Création de jardins",
@@ -107,4 +110,4 @@ J’aborde tous les programmes et les styles de jardin selon une démarche expé
 
 N’hésitez pas à me rejoindre sur Facebook pour retrouver toutes mes réalisations récentes, ainsi que les  actualités. ")
 
-print("graines créées !")
+puts("graines créées !")
