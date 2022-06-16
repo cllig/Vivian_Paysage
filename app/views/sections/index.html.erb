@@ -1,0 +1,5 @@
+<% @sections.each do |section| %>
+  <%= link_to section_path(section) do %>
+        <%= section.title %>
+  <% end %>
+<% end %>
