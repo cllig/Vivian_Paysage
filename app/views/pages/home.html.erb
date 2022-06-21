@@ -1,2 +1,59 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1520819716183-631708b900aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);">
+  <div class = "container">
+    <div class="banner-content">
+      <h1>Vivian Lignon Paysage</h1>
+      <p>Votre paysagiste à Calmont.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="presentation">
+    <p>Lignon Vivian Paysage à Calmont est votre expert en travaux paysagers. <br>
+      De la création de votre jardin à son entretien, je vous propose différentes prestations paysagères.<br>
+      Créatif et passionné, je mets au service des particuliers et des professionnels toute mon expérience pour proposer un travail sur-mesure.<br>
+      Des prestations qui sont aussi bien adaptées à vos goûts ainsi qu’à vos besoins.<br>
+      Profitez d’un jardin harmonieux toute l’année !<br>
+      Spécialisé dans les travaux paysagers, je vous propose divers services adaptés à toutes vos demandes.<br>
+      Organisé et méthodique, j’établis une étude définie du projet en prennant en compte votre budget.</p>
+
+    <div class="icones-homepage">
+      <%= link_to "https://www.servicesalapersonne.gouv.fr/", class: "homepage-icone", target: :_blank do %>
+        <%= image_tag "https://www.lignon-vivian-paysage.fr/userfiles/26495/picto-logo-services-%C3%A0-la-personne.jpg", alt: "logo service à la personne" %>
+      <% end %>
+
+      <%= link_to "https://www.impots.gouv.fr/particulier/emploi-domicile", class: "homepage-icone", target: :_blank do %>
+        <%= image_tag "https://www.lignon-vivian-paysage.fr/userfiles/26495/logo-cr%C3%A9dit-d'imp%C3%B4t.jpg", alt: "réduction d'impôts" %>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="fb-part">
+    <h2>Je m'occupe de tout !</h2>
+    <div class="content-fb">
+      <p>Je suis en mesure de répondre à toutes vos demandes.<br>
+        Vous avez envie de créer un jardin ou bien vos extérieurs ont besoin d'un rafraîchissement ?<br>
+        Faites appel à Lignon Vivian Paysage !<br>
+        Soucieux de vous apporter le meilleur des services, je vous garantis un travail minutieux et un état impeccable de vos extérieurs.</p>
+    </div>
+  </div>
+
+   <div class="fb-part">
+    <h2>Zone d'intervention</h2>
+    <p>Paysagiste réactif et attentionné, je reste à votre disposition et prends en charge tous vos travaux de création de jardins où que vous soyez dans un rayon de 35km autour de Calmont, notamment :</p>
+    <div class="content-fb">
+      <p>
+        <ul>
+          <li>Baraqueville</li>
+          <li>La Primaube</li>
+          <li>Naucelle</li>
+          <li>Rodez</li>
+          <li>Cassagnes-Bégonhès</li>
+          <li>Pont de Salars</li>
+          <li>Salles Curan</li>
+          <li>Rieupeyroux</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
