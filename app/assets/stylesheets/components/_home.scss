@@ -1,0 +1,21 @@
+p {
+  font-size: 18px;
+}
+
+h2{
+  font-family: "Manjari";
+}
+
+.presentation {
+  padding-top: 32px;
+  max-width: 60%;
+}
+
+.icones-homepage {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icones-homepage .homepage-icone img {
+  width: 24%;
+}
